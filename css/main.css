@@ -1,0 +1,24 @@
+body {
+	background: #000000 url(/img/bg_quad_2.jpg);
+	background-properties: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:top center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:10px;
+	font-family:Trebuchet MS;
+}
+#portal {
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+	position: absolute;
+    width: 350px;
+    height: 500px;
+	margin: 0 auto;
+}
