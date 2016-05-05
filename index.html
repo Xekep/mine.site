@@ -12,14 +12,7 @@
 </head>
 <body>
 <div id="portal">
-<script>
-	function getRandomImage()
-	{
-		var Image = Math.random() * (7 - 1) + 1;
-		return 'https://terraria-z.ru/img/jpg/' + Image.toString() + '.jpg';
-	}
-</script>
-<a href='http://fun.terraz.ru/'><img style="visibility:hidden; width:350px; height:500px; border:1px solid:#990000;"  onload="fadePicture ('picture'); this.setAttribute("src", getRandomImage());" id=picture src='' alt='Нажмите, чтобы войти' title='Нажмите, чтобы войти'></a>
+<a href='http://fun.terraz.ru/'><img style="visibility:hidden; width:350px; height:500px; border:1px solid:#990000;"  onload="this.setAttribute('src', getRandomImage()); fadePicture ('picture');" id=picture src='' alt='Нажмите, чтобы войти' title='Нажмите, чтобы войти'></a>
 </div>
 </body>
 </html>
