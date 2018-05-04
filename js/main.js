@@ -1,7 +1,7 @@
 function getRandomImage()
 {
 	var Image = Math.floor(Math.random() * (7 - 1) + 1);
-	return 'https://terraria-z.ru/img/jpg/' + Image.toString() + '.jpg';
+	return '//terraria-z.ru/img/jpg/' + Image.toString() + '.jpg';
 }
 
 function makevisible(cur,which)
